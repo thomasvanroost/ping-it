@@ -1,0 +1,94 @@
+@import 'https://fonts.googleapis.com/css?family=Questrial';
+
+	body {
+		font-family:Questrial, sans-serif;
+		/* padding: 20px; */
+		margin: 0 auto;
+		max-width: 50em;
+		background-color: #f9f9f9;
+		color: #555;
+		line-height: 1.5em;
+	}
+	
+	h1{
+		font-family: Questrial, sans-serif;
+		color: #30c; 
+		font-size: 4em;
+		display: block;
+		text-decoration: blink;
+		/*background-color: #1719A7; */
+		/*padding: 50px 5px 5px 25px;
+		border-bottom: 3px black solid; */
+	}
+	
+	h2{
+		color: #333;
+		
+	}
+	
+	h3{
+		color: #444;
+		border-bottom: 2px rgba(0, 0, 0, 0.75) solid;
+		display: inline;
+	}
+	
+	p{
+		font-size: 1.2em;
+		margin-top: 8px;
+		margin-bottom: 25px;
+	}
+	
+	a{
+		color: #30c;é
+		text-decoration: none;
+	}
+	
+	p a:hover{
+		text-decoration: underline;
+	}
+	
+	ul{
+		list-style: none;
+		margin-top: 10px;
+		padding: 0px;
+	}
+	
+	li{
+		display: inline;
+		border: 2px solid rgba(0,  0,  0, 0.75);
+		margin: 5px;
+		padding: 5px;
+		color: black;
+	}
+	
+	li:hover{
+		background-color: ;
+	}
+	
+	li a{
+		color: #30c;
+		font-size: 1em;
+		font-weight: bolder;
+		text-decoration: none;
+	}
+	
+	body.home li.home, body.about li.about, body.contact li.contact{
+		/*background-color: #49B2AF; */
+		border-bottom: 4px;
+	}
+	
+	nav{
+		
+		text-align: right;
+	}
+	
+	footer{
+		font-size: 0.8em;
+		position: absolute;
+		right: 0; 
+		bottom: 0;
+		left: 0;
+		text-align: center;
+		background-color: #eeeeee;
+		
+	}
