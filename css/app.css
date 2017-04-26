@@ -5,9 +5,18 @@
 body{
 	color: white;
 	background-color: #005CB8;
+	font-weight: 300;
+	margin-left: 5%;
 }
 
 h1, h2, h3, h4{
 	font-weight: 600;
 }
 
+li{
+	font-weight: 500;
+}
+
+.contact_bt{
+	font-weight: 600;
+}
